@@ -6,7 +6,7 @@ app = Flask(__name__)
 def main():
     return "Welcome Jenkins!"
 
-@app.route('/how are you')
+@app.route('/how are you devops team')
 def hello():
     return 'I am good, how about you?'
 
